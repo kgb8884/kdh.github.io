@@ -42,12 +42,12 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function(){
-    // btn1을 클릭했을 때 class1 을 사라지게
+    
     $('#btn1').click(function(){
         $(".class1").hide();
     });
-    // btn2를 클릭했을 때 class2를 사라지게
+    
     $("#btn2").click(function(){
-        $(".class1").show();
+        $(".class1").show();hide
     });
 })
